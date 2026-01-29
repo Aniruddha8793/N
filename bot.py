@@ -17,7 +17,7 @@ ADMIN_GROUP_ID = -1003570824341
 # We save the DB file to a specific path. 
 # On Railway, files are deleted on every "deploy" unless you use a Volume.
 # For now, this saves it in the current folder.
-DATABASE_NAME = "modmail.db"
+DATABASE_NAME = "/app/data/modmail.db"
 
 # --- SETUP ---
 logging.basicConfig(level=logging.INFO, stream=sys.stdout)
